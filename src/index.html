@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <link href="/styles/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-cyan-200">
+    <div class="w-full h-screen flex items-center justify-center">
+        <main class="flex h-[500px] w-[800px] lg:h-[600px] lg:w-[960px] 2xl:h-[650px] 2xl:w-[1040px] bg-white items-center justify-center m-10">
+
+            <div class="w-full flex flex-col border-r-2">
+                <div class="w-full flex justify-center">
+                    <h1 class="text-3xl font-title">Faça seu Login</h1>
+                </div>
+                <div class="w-full h-full flex flex-col items-center justify-center gap-4">
+                    <p>Preencha os campos abaixo:</p>
+                    <input type="email" name="email" class="border-2 w-3/4 rounded-md pl-2" placeholder="E-mail">
+                    <input type="password" name="password" class="border-2 w-3/4 rounded-md pl-2" placeholder="Senha">
+                    <div>
+                        <button type="submit" class="bg-white border-2 border-gray-900 text-gray-800 font-bold rounded-full py-2 px-4 hover:bg-green-600 hover:text-white hover:border-none hover:scale-110">Entrar</button>
+                    </div>
+                    <div><p class="text-sm">Ainda não possui uma conta? <a href="#" class="text-sm hover:text-blue-700 hover:font-bold underline">Criar</a></p></div>
+                </div>
+            </div>
+
+            <div class="hidden md:flex w-full h-full flex-col items-center justify-center">
+                
+                <div class="h-1/2 flex flex-col justify-center gap-1">
+                    <h1 class="text-xl font-title">Conectado, você pode:</h1>
+                    <p class="text-base"><i class="fa-regular fa-calendar mt-5"></i> Verificar horários disponíveis</p>
+                    <p class="text-base"><i class="fa-solid fa-location-dot" style="color: #21ba33;"></i> Realizar agendamentos</p>
+                    <p class="text-base"><i class="fa-solid fa-xmark" style="color: #ff0000;"></i> Cancelar agendamentos</p>
+                    <p class="text-base"><i class="fa-regular fa-rectangle-list"></i> Consultar seus agendamentos</p>
+                </div>
+            </div>
+
+        </main>
+    </div>
+    <script src="https://kit.fontawesome.com/93ffee418f.js" crossorigin="anonymous"></script>
+    <script src=""></script>
+</body>
+
+</html>
